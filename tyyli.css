@@ -283,52 +283,58 @@ footer {
 
        /* artikkeli section */
 
-        .artikkeleita {
-            display: flex;
-            justify-content: center; 
-            flex-wrap: wrap; 
-            padding: 20px;
-            
-            margin: 20px;
-            background-color: #f2f2f2; 
-        }
+.artikkeleita {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
 
-        .artikkeli {
-            flex: 0 0 30%; 
-            margin-bottom: 20px; 
-            text-align: center; 
-        }
+.keskita {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; 
+}
 
-        .artikkeli img {
-            width: 100%; 
-            max-width: 100%; 
-            height: auto; 
-            border-radius: 10px; 
-            margin-bottom: 10px;
-            width: 300px; 
-            height: 250px; 
-        }
+.artikkeli {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-        .artikkeli h3 {
-            margin-top: 0;
-        }
+.artikkeli img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.artikkeli h3 {
+    margin-top: 0;
+}
+
 /* Artikkeli media responsivuus */
-
-        @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .artikkeli {
-        flex: 1 0 100%; 
+        flex: 1 0 100%;
     }
 
     .artikkeli img {
-        width: 100%; 
-        max-width: 100%; 
-        height: auto; 
-        border-radius: 10px; 
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
         margin-bottom: 10px;
-        width: auto; 
+        width: auto;
         height: auto;
     }
 }
+
 /* image and text section */
 
 .kartta {
