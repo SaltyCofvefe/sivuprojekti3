@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kissankasvatuskysely</title>
+    <link rel="stylesheet" href="tyyli.css">
+<style>
+    
+  
+
+</style>
+</head>
+<body>
+<header>
+    <img src="logo.png" alt="Logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Koti</a></li>
+            <li><a href="Kissanhoito.html">Kissanhoito</a> 
+                <ul>
+                    <li><a href="Kissanhoito.html#ruokinta">Ruokinta ja ravitsemus</a></li>
+                    <li><a href="Kissanhoito.html#turkkihoito">Turkkihoito ja hygienia</a></li>
+                    <li><a href="Kissanhoito.html#aktivointi">Aktivointi ja lelut</a></li>
+                </ul>
+            </li>
+            <li><a href="Kissanterveys.html">Kissanterveys</a> 
+                <ul>
+                    <li><a href="Kissanterveys.html#Rokotukset">Rokotukset ja ennaltaehkäisevä terveydenhoito</a></li>
+                    <li><a href="Kissanterveys.html#sairaus">Sairauksien tunnistaminen ja hoito</a></li>
+                    <li><a href="Kissanterveys.html#kayttayminen">Kissan käyttäytyminen ja stressin hallinta</a></li>
+                </ul>
+            </li>
+            <li><a href="Kissankoulutus.html">Kissan koulutus ja viihde</a> 
+                <ul>
+                    <li><a href="Kissankoulutus.html#Pentukoulutus">Pentuvaiheen koulutus</a></li>
+                    <li><a href="Kissankoulutus.html#Leikkiminen">Leikkien ja aktiviteettien opettaminen</a></li>
+                    <li><a href="Kissankoulutus.html#kissanviihde">Aktiiviteet ja lelut</a></li>
+                </ul>
+            </li>
+            <li><a href="kysely.html">Kysely</a></li>
+        </ul>
+    </nav>
+</header>
+  <main>  
+<div class="container">
+    <h1>Kissankasvatuskysely</h1>
+    <form action="#" method="post">
+        <label for="name">Nimi:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Sähköposti:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="Kysymys1">Kuinka monta kissaa omistat tällä hetkellä?</label>
+        <input type="number" id="Kysymys1" name="Kysymys 1" min="0" required>
+
+        <label for="Kysymys2">Kuinka monta kissanpentuetta olet kasvattanut tähän mennessä?</label>
+        <input type="number" id="Kysymys2" name="Kysymys 2" min="0" required>
+
+        <label for="Kysymys3">Mikä on suurin haaste, jonka kohtaat kissanpentujen kasvatuksessa?</label>
+        <textarea id="Kysymys3" name="Kysymys 3" rows="4" required></textarea>
+
+        <input type="submit" value="Lähetä">
+    </form>
+</div>
+      </main> 
+<footer>
+    <div class="footer-left">
+        <h3>Ota yhteyttä</h3>
+        <p>Puhelin: + 0400404040</p>
+        <p>Sähköposti:  info@hissunkissunkissa.fi</p>
+        <p>Osoite: Katujenkatu 6, 90000 Jyväskylä, Suomi</p>
+    </div>
+    <div class="footer-middle">
+        <h3>Sivun omistaja</h3>
+        <img src="face.webp" alt="Owner Photo" width="50" height="50"> <!-- Custom size -->
+        <blockquote>"Kissojen terveys on minun intohimoni."</blockquote>
+    </div>
+    <div class="footer-right">
+        <ul>
+            <li><a href="Kissanhoito.html">Kissanhoito</a></li>
+            <li><a href="Kissanterveys.html">Kissan terveys</a></li>
+            <li><a href="Kissankoulutus.html">Kissan koulutus ja viihde</a></li>
+        
+        </ul>
+    </div>
+    
+</footer>
+<footer class="footer-bottom">
+    <div class="copyright">
+        <p>© 2024 Kissanystävien Tietopankki. All rights reserved.</p>
+    </div>
+    <div class="legal-links">
+        <p><a href="#">Tietosuojaseloste</a> | <a href="#">Saavutettavuusseloste</a></p>
+    </div>
+</footer>
+    </body>
+</html>
